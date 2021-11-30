@@ -1,0 +1,49 @@
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#output_field {
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(72, 72, 72);
+}
+
+input {
+    max-width: 300px;
+    width: 100%;
+    border: none;
+    background: rgb(237, 237, 237);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.entrada {
+    margin-top: 40px;
+}
+
+button {
+    border: none;
+    padding: 5px 40px;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(85, 181, 18);
+    color: rgb(240, 240, 240);
+    cursor: pointer;
+}
